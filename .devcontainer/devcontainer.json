@@ -2,5 +2,6 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
     "ghcr.io/codspace/experimental-features/docker-in-docker:latest": {}
-  }
+  },
+  "initializeCommand": "docker info && uname -a"
 }
